@@ -1,0 +1,12 @@
+name: demo-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - seaborn
+    - snowflake-connector-python
+    - matplotlib
